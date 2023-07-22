@@ -25,11 +25,9 @@ public class CheckOutStepOnePage extends BasePage
 
 
     @FindBy(className = "summary_subtotal_label")
-    static
     WebElement priceTotal;
 
     @FindBy(css = ".summary_info_label.summary_total_label")
-    static
     WebElement total;
 
     @FindBy(id = "continue-shopping")
